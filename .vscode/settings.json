@@ -1,0 +1,65 @@
+{
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#00ff62",
+        "terminalCursor.foreground": "#00ff1a"
+    },
+    "clangd.arguments": [
+        "--clang-tidy",                 // 开启clang-tidy
+        "--all-scopes-completion",      // 全代码库补全
+        "--completion-style=detailed",  // 详细补全
+        "--header-insertion=iwyu",      
+        "--pch-storage=disk",           // 如果内存够大可以关闭这个选项
+        "--log=error",
+            "--j=5",                        // 后台线程数，可根据机器配置自行调整
+        "--background-index"
+      ],
+    "clangd.path": "/home/lja/.vscode-server/data/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/18.1.3/clangd_18.1.3/bin/clangd",
+    "files.associations": {
+        "array": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "numbers": "cpp",
+        "ostream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "typeinfo": "cpp"
+    },
+    
+}

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"editorCursor.foreground": "#00ff62",
+			"terminalCursor.foreground": "#00ff1a"
+		},
+	},
+
+}

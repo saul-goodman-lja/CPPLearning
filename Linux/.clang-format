@@ -1,0 +1,5 @@
+Language:        Cpp
+AccessModifierOffset: -2
+IndentWidth:     4
+UseTab:          Never
+TabWidth:        4

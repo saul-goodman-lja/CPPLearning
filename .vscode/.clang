@@ -1,0 +1,9 @@
+{
+    "Format.Style": "file",
+    "Format.FileFallbackStyle": "{ BasedOnStyle: llvm, IndentWidth: 4 }",
+    "CompileFlags": {
+        "Add": [
+          "-I./include"
+        ]
+      }
+}

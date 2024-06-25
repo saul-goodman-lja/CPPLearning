@@ -1,0 +1,79 @@
+{
+    "workbench.colorCustomizations": {
+        // "editorCursor.foreground": "#ffff00",
+        // "terminalCursor.foreground": "#ffff00"
+        "editorCursor.foreground": "#9f03aa",
+        "terminalCursor.foreground": "#ffff00"
+    },
+    "files.associations": {
+        "tools.h": "c",
+        "*.tcc": "c",
+        "string": "c",
+        "string_view": "c",
+        "ostream": "c",
+        "stdexcept": "c",
+        "system_error": "c",
+        "typeinfo": "c",
+        "cstdlib": "c",
+        "my_header.h": "c",
+        "stat.h": "c",
+        "unistd.h": "c",
+        "struct_stat_time64_helper.h": "c",
+        "endian.h": "c",
+        "struct_timespec.h": "c",
+        "time.h": "c",
+        "cctype": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    // "editor.tokenColorCustomizations": {
+    //     "comments": "#960099",
+    // },
+    // "better-comments.tags": [
+    //     {
+    //       "tag": "!",
+    //       "color": "#FF2D00",
+    //       "strikethrough": false,
+    //       "underline": false,
+    //       "backgroundColor": "transparent",
+    //       "bold": false,
+    //       "italic": false
+    //     },
+    //     {
+    //       "tag": "?",
+    //       "color": "#3498DB",
+    //       "strikethrough": false,
+    //       "underline": false,
+    //       "backgroundColor": "transparent",
+    //       "bold": false,
+    //       "italic": false
+    //     },
+    //     {
+    //       "tag": "//",
+    //       "color": "#474747",
+    //       "strikethrough": true,
+    //       "underline": false,
+    //       "backgroundColor": "transparent",
+    //       "bold": false,
+    //       "italic": false
+    //     },
+    //     {
+    //       "tag": "todo",
+    //       "color": "#FF8C00",
+    //       "strikethrough": false,
+    //       "underline": false,
+    //       "backgroundColor": "transparent",
+    //       "bold": false,
+    //       "italic": false
+    //     },
+    //     {
+    //       "tag": "*",
+    //       "color": "#98C379",
+    //       "strikethrough": false,
+    //       "underline": false,
+    //       "backgroundColor": "transparent",
+    //       "bold": false,
+    //       "italic": false
+    //     }
+    //   ]
+    
+}

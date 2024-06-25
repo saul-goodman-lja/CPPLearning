@@ -1,0 +1,1 @@
+this is a  test gcc open_copy.c -o open_copy -Wall -g! 

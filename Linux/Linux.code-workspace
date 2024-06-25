@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"editorCursor.foreground": "#9f03aa",
+			"terminalCursor.foreground": "#ffff00"
+		},
+		"files.associations": {
+			"tools.h": "c",
+			"*.tcc": "c",
+			"string": "c",
+			"string_view": "c",
+			"ostream": "c",
+			"stdexcept": "c",
+			"system_error": "c",
+			"typeinfo": "c",
+			"cstdlib": "c",
+			"my_header.h": "c",
+			"stat.h": "c",
+			"unistd.h": "c",
+			"struct_stat_time64_helper.h": "c",
+			"endian.h": "c",
+			"struct_timespec.h": "c",
+			"time.h": "c",
+			"cctype": "c"
+		},
+		"clangd.arguments": [
+			"--header-insertion=never"
+		]
+	}
+}
