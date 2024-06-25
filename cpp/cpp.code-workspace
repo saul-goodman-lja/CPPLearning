@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"editorCursor.foreground": "#9f03aa",
+			"terminalCursor.foreground": "#9f03aa"
+		},
+		"clangd.arguments": [
+			"--header-insertion=never",
+		],
+		"clangd.checkUpdates": false,
+		"clangd.path": "clangd",
+	},
+}
