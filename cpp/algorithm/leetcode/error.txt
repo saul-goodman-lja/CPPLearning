@@ -1,0 +1,29 @@
+`06_unique_list.cc:6:1: error: expected unqualified-id before numeric constant
+    6 | 1
+      | ^
+06_unique_list.cc: In function ‘void test()’:
+06_unique_list.cc:169:5: error: ‘MyLinkedList’ was not declared in this scope
+  169 |     MyLinkedList* obj = new MyLinkedList();
+      |     ^~~~~~~~~~~~
+06_unique_list.cc:169:19: error: ‘obj’ was not declared in this scope
+  169 |     MyLinkedList* obj = new MyLinkedList();
+      |                   ^~~
+06_unique_list.cc:169:29: error: expected type-specifier before ‘MyLinkedList’
+  169 |     MyLinkedList* obj = new MyLinkedList();
+      |                             ^~~~~~~~~~~~
+06_unique_list.cc:179:12: error: type ‘<type error>’ argument given to ‘delete’, expected pointer
+  179 |     delete obj;
+      |            ^~~
+06_unique_list.cc: In function ‘void test1()’:
+06_unique_list.cc:185:5: error: ‘MyLinkedList’ was not declared in this scope
+  185 |     MyLinkedList* obj = new MyLinkedList();
+      |     ^~~~~~~~~~~~
+06_unique_list.cc:185:19: error: ‘obj’ was not declared in this scope
+  185 |     MyLinkedList* obj = new MyLinkedList();
+      |                   ^~~
+06_unique_list.cc:185:29: error: expected type-specifier before ‘MyLinkedList’
+  185 |     MyLinkedList* obj = new MyLinkedList();
+      |                             ^~~~~~~~~~~~
+06_unique_list.cc:195:12: error: type ‘<type error>’ argument given to ‘delete’, expected pointer
+  195 |     delete obj;
+      |            ^~~
