@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
+		"editor.tokenColorCustomizations": {
+			// "comments": "#17e917"
+			// "comments":"#ffffff8c"
+		},
 		"workbench.colorCustomizations": {
 			"editorCursor.foreground": "#9f03aa",
 			"terminalCursor.foreground": "#9f03aa"
