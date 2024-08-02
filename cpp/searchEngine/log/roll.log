@@ -1,0 +1,3 @@
+'2024-08-02 16:33:17,598' myLogger [INFO] src/online/KeyRecommander.cc DoubleCache 80 >>> 命中LRU Cache, 返回结果为:["hey","hew","hen","hem","help","helm","hell","held","heh","heel"]
+'2024-08-02 16:33:17,888' myLogger [INFO] src/online/KeyRecommander.cc DoubleCache 80 >>> 命中LRU Cache, 返回结果为:["hell","yell","vell","tell","shell","sell","hull","hill","help","helm"]
+'2024-08-02 16:33:19,476' myLogger [INFO] src/online/KeyRecommander.cc DoubleCache 80 >>> 命中LRU Cache, 返回结果为:["hello","hullo","hell","hallo","yells","yellow","yell","wells","vell","telly"]

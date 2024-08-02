@@ -104,7 +104,7 @@ void DictProducer::createIndex(){
         string word;
         iss >> word;
         for(size_t idx = 0; idx < word.size();){
-            size_t len = nBytesCode(word[idx]);
+            size_t len = nBytesCode(word[idx]); // 每个字符要确定其所占的字节数
             _index[word.substr(idx, len)].insert(i);
             idx += len;
         }
